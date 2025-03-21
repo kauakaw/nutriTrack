@@ -67,6 +67,60 @@
             <div class="col-md-8 linha01"></div>
             <div class="col-md-2"></div>
         </div>
+
+        <br><br>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 contCalculo">
+                <div class="txtPesokg">Peso(kg)</div>
+                <div class="txtAltura">Altura(cm)</div>
+                <div class="txtTituloCalculo">Calculo IMC</div>
+                <form action="" method="post" class="frmCalculo">
+                    <input type="text" id="peso" class="inputPeso">
+                    <input type="text" id="altura" class="inputAltura">
+                </form>
+                <button type="button" onclick="calcular()" 
+                class="txtIgual">=</button>
+                <div class="txtImc" id="result"></div>
+                <div class="txtImc2" id="result2"></div>
+
+                <script>
+                    function calcular() {
+
+                        var kg = document.getElementById("peso").value;
+                        var altura = document.getElementById("altura").value;
+
+                        var alturaC = (altura/100) * (altura/100);
+                        var imc = kg / alturaC;
+                        document.getElementById("result").innerHTML = "Seu IMC é " + imc;
+
+                        if (imc <= 18.4) {
+                            document.getElementById("result2").innerHTML = "Você está abaixo do peso!"
+                        }
+                        else if (imc >= 18.5 && imc <= 24.9) {
+                            document.getElementById("result2").innerHTML = "Você está no peso ideal!"
+                        }
+                        else if (imc >= 25 && imc <= 29.9) {
+                            document.getElementById("result2").innerHTML = "Você está com sobrepeso!"
+                        }
+                        else if (imc >= 30 && imc <= 34.9) {
+                            document.getElementById("result2").innerHTML = "Você está em Obesidade Grau 1!"
+                        }
+                        else if (imc >= 35 && imc <= 39.9) {
+                            document.getElementById("result2").innerHTML = "Você está em Obesidade Grau 3!"
+                        }
+                        else if (imc >= 40) {
+                            document.getElementById("result2").innerHTML = "Você está em Obesidade Grau 3!"
+                        }
+                    }
+                </script>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <br><br>
+
     </div>
 </body>
 </html>
