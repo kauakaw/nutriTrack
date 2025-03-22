@@ -14,6 +14,11 @@ body{
 .menu .header{
     position: fixed;
     width: 100%;
+    z-index: 10;
+}
+
+.header .link{
+    text-decoration: none;
 }
 
 .logo{
@@ -44,6 +49,12 @@ body{
     height: 90px;
     text-decoration: none;
     font-size: 13px;
+}
+
+.menu .link{
+    text-decoration: none;
+    background-color: #073E3C;
+    color: white;
 }
 
 .menu .tituloImportanciaAlim{
@@ -85,7 +96,7 @@ body{
 .menu .contCalculo{
     background-color: #38A459;
     width: 1050px;
-    height: 300px;
+    height: 250px;
     border-radius: 15px;
 }
 
@@ -127,6 +138,7 @@ body{
     bottom: -40px;
     right: 270px;
     border-color: transparent;
+    text-align: center;
 }
 
 .menu .contCalculo .inputAltura{
@@ -136,6 +148,7 @@ body{
     bottom: -40px;
     right: 235px;
     border-color: transparent;
+    text-align: center;
 }
 
 .menu .contCalculo .txtIgual{
@@ -168,4 +181,42 @@ body{
     border: hidden;
     background-color: transparent;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar{
+    background-color: #38A459;
+    width: 1050px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.menu .imgFolha{
+    background-color: transparent
+}
+
+.menu .imgFolha img{
+    top: 150px;
+    width: 128px;
+    left: -510px;
+    position: relative;
+    background-color: transparent;
+}
+
+.menu .imgPrato{
+    background-color: transparent;
+}
+
+.menu .imgPrato img{
+    position: relative;
+    top: -140px;
+    right: -380px;
+    background-color: transparent;
+    width: 400px;
+}
+
+.menu .back01 img{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    background-image: cover;
 }
