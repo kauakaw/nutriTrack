@@ -13,7 +13,7 @@ body{
 
 .menu .header{
     position: fixed;
-    width: 100%;
+    width: 101%;
     z-index: 10;
 }
 
@@ -219,4 +219,6 @@ body{
     width: 100%;
     height: auto;
     background-image: cover;
+    position: relative;
+    top: 90px;
 }
