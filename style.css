@@ -244,7 +244,7 @@ body{
     position: absolute;
     width: 450px;
     height: auto;
-    top: 1000px;
+    top: 1040px;
     background-color: transparent;
     right: 100px;
 }
@@ -302,6 +302,281 @@ body{
     text-align: right;
     color: white;
     font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.japa img{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 1900px;
+    background-color: transparent;
+    right: 100px;
+}
+
+.japa > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.japa:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulojapa{
+    position: absolute;
+    top: 1950px;
+    right: 500px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtJapa{
+    position: absolute;
+    width: 500px;
+    top: 2060px;
+    left: 510px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kaw img{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 2690px;
+    background-color: transparent;
+    left: 125px;
+}
+
+.kaw > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.kaw:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulokaw{
+    position: absolute;
+    top: 2850px;
+    left: 450px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtKaw{
+    position: absolute;
+    width: 500px;
+    top: 2960px;
+    left: 450px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.kaue img{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 3590px;
+    background-color: transparent;
+    right: 125px;
+}
+
+.kaue > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.kaue:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulokaue{
+    position: absolute;
+    top: 3750px;
+    right: 700px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtKaue{
+    position: absolute;
+    width: 500px;
+    top: 3870px;
+    right: 720px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ana img{
+    position: absolute;
+    width: 700px;
+    height: auto;
+    top: 4450px;
+    background-color: transparent;
+    left: -25px;
+}
+
+.ana > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.ana:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTituloana{
+    position: absolute;
+    top: 4520px;
+    left: 500px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtAna{
+    position: absolute;
+    width: 500px;
+    top: 4630px;
+    left: 500px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rai img{
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 5190px;
+    background-color: transparent;
+    right: 125px;
+}
+
+.rai > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.rai:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTitulorai{
+    position: absolute;
+    top: 5400px;
+    right: 520px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtRai{
+    position: absolute;
+    width: 500px;
+    top: 5520px;
+    right: 530px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    width: 100%;
+    height: 8vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #073E3C;
+}
+
+
+#text{
+    background-color: transparent;
+    font-size: 1.2vw;
+}
+
+.menu .contPriorizar .txtPriz{
+    position: relative;
+    top: -390px;
+    right: 430px;
+    font-size: 22.5px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar .txtEvitar{
+    position: relative;
+    top: -260px;
+    right: -50px;
+    font-size: 22.5px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar .txtPrizCont{
+    position: relative;
+    top: -420px;
+    right: 380px;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar .txtEvitarCont{
+    position: relative;
+    top: -510px;
+    right: 45px;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu .contPriorizar .txtEvitar{
+    position: relative;
+    top: -420px;
+    right: 50px;
+    font-size: 22.5px;
     background-color: transparent;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }

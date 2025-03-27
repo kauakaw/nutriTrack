@@ -15,11 +15,11 @@
             <div class="col-md-1 menu"></div>
             <div class="col-md-1 menu casa"><img src="img/casa.png" alt=""></div>
             <div class="col-md-1 menu"></div>
-            <div class="col-md-1 menu"><a href="imc.html" class="link">IMC</a></div>
+            <div class="col-md-1 menu"><a href="imc.html" class="link">BMI</a></div>
             <div class="col-md-1 menu"></div>
-            <div class="col-md-1 menu">EXERCICIOS</div>
+            <div class="col-md-1 menu">EXERCISES</div>
             <div class="col-md-1 menu"></div>
-            <div class="col-md-1 menu"><a href="sbrNos.html" class="link">SOBRE NÓS</a></div>
+            <div class="col-md-1 menu"><a href="sbrNos.html" class="link">ABOUT US</a></div>
             <div class="col-md-1 menu"></div>
             <div class="col-md-1 menu">LOGIN</div>
         </div>
@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-md-2 tituloImportanciaAlim"></div>
             <div class="col-md-10 tituloImportanciaAlim">
-                Qual a importância de uma alimentação saudavél?</div>
+                What is the importance of healthy eating?</div>
         </div>
 
         <br>
@@ -38,17 +38,7 @@
         <div class="row">
             <div class="col-md-2 contImportanciaAlim"></div>
             <div class="col-md-5 contImportanciaAlim">
-                A alimentação saudável é essencial para o bom
-            funcionamento do corpo e da mente.
-            Ao escolher alimentos nutritivos, como frutas, verduras, proteínas magras e grãos 
-            integrais, ajudamos a prevenir doenças como diabetes e
-            obesidade, além de fortalecer 
-            o sistema imunológico e melhorar a digestão. Uma dieta balanceada também 
-            contribui para o controle do peso, aumenta a energia e 
-            melhora o humor. Além disso, ela impacta positivamente a  
-            saúde mental, reduzindo o estresse e a ansiedade. Em 
-            resumo, uma alimentação saudável é a base para uma vida 
-            equilibrada, com mais disposição e qualidade de vida.
+                Healthy eating is essential for the proper functioning of the body and mind. By choosing nutritious foods such as fruits, vegetables, lean proteins, and whole grains, we help prevent diseases such as diabetes and obesity, as well as strengthen the immune system and improve digestion. A balanced diet also contributes to weight management, increases energy, and improves mood. In addition, it positively impacts mental health, reducing stress and anxiety. In summary, a healthy diet is the basis for a balanced life, with more disposition and quality of life.
             </div>
             <div class="col-md-4 imgPiramide">
                 <img src="img/piramide.png" alt="">
@@ -59,7 +49,7 @@
 
         <div class="row">
             <div class="col-md-12 tituloCalculo">
-                Quer descobrir sua dieta ideal?
+                Want to discover your ideal diet?
             </div>
         </div>
 
@@ -75,9 +65,9 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8 contCalculo">
-                <div class="txtPesokg">Peso(kg)</div>
-                <div class="txtAltura">Altura(cm)</div>
-                <div class="txtTituloCalculo">Calculo IMC</div>
+                <div class="txtPesokg">Weight(kg)</div>
+                <div class="txtAltura">Height(cm)</div>
+                <div class="txtTituloCalculo">BMI Calculation</div>
                 <form action="" method="post" class="frmCalculo">
                     <input type="text" id="peso" class="inputPeso">
                     <input type="text" id="altura" class="inputAltura">
@@ -95,25 +85,25 @@
 
                         var alturaC = (altura/100) * (altura/100);
                         var imc = (kg / alturaC).toFixed(2);
-                        document.getElementById("result").innerHTML = "Seu IMC é " + imc;
+                        document.getElementById("result").innerHTML = "Your BMI is " + imc;
 
                         if (imc <= 18.4) {
-                            document.getElementById("result2").innerHTML = "Você está abaixo do peso!";
+                            document.getElementById("result2").innerHTML = "You are underweight!";
                         }
                         else if (imc >= 18.5 && imc <= 24.9) {
-                            document.getElementById("result2").innerHTML = "Você está no peso ideal!";
+                            document.getElementById("result2").innerHTML = "You are at the ideal weight!";
                         }
                         else if (imc >= 25 && imc <= 29.9) {
-                            document.getElementById("result2").innerHTML = "Você está com sobrepeso!";
+                            document.getElementById("result2").innerHTML = "You're overweight!";
                         }
                         else if (imc >= 30 && imc <= 34.9) {
-                            document.getElementById("result2").innerHTML = "Você está em Obesidade Grau 1!";
+                            document.getElementById("result2").innerHTML = "You are in Grade 1 Obesity!";
                         }
                         else if (imc >= 35 && imc <= 39.9) {
-                            document.getElementById("result2").innerHTML = "Você está em Obesidade Grau 3!";
+                            document.getElementById("result2").innerHTML = "You are in Grade 2 Obesity!";
                         }
                         else if (imc >= 40) {
-                            document.getElementById("result2").innerHTML = "Você está em Obesidade Grau 3!";
+                            document.getElementById("result2").innerHTML = "You are in Grade 3 Obesity!";
                         }
                     }
                 </script>
@@ -128,13 +118,26 @@
             <div class="col-md-8 contPriorizar">
                 <div class="imgFolha"><img src="img/folha.png"></div>
                 <div class="imgPrato"><img src="img/prato.png"></div>
+                <div class="txtPriz">PRIORIZAR</div>
+                <div class="txtEvitar">EVITAR</div>
+                <div class="txtPrizCont">
+                    -100g de carboidratado <br>
+                    -200g de proteina <br>
+                    -2.5 litros de água <br>
+                </div>
+                <div class="txtEvitarCont">
+                    -Fritura <br>
+                    -Gordura
+                </div>
             </div>
             <div class="col-md-2"></div>
         </div>
 
         <br><br>
         
-
+        <footer class="footer">
+            <p id="text">&copy; 2025 Nutritrack. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
