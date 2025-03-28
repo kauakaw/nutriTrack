@@ -528,12 +528,14 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #073E3C;
+    z-index: 10;
 }
 
 
 #text{
     background-color: transparent;
     font-size: 1.2vw;
+    z-index: 10;
 }
 
 .menu .contPriorizar .txtPriz{
@@ -560,6 +562,7 @@ body{
     right: 380px;
     font-size: 20px;
     background-color: transparent;
+    color: red;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -577,6 +580,49 @@ body{
     top: -420px;
     right: 50px;
     font-size: 22.5px;
+    background-color: transparent;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.anemia img{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 5800px;
+    background-color: transparent;
+    left: 100px;
+}
+
+.anemia > img{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.anemia:hover > img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.txtTituloanemia{
+    position: absolute;
+    top: 6200px;
+    left: 370px;
+    color: white;
+    text-align: right;
+    background-color: transparent;
+    font-size: 80px;
+    letter-spacing: 15px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtAnemia{
+    position: absolute;
+    width: 500px;
+    top: 6320px;
+    left: 370px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
     background-color: transparent;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
