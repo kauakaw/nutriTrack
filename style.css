@@ -626,3 +626,9 @@ body{
     background-color: transparent;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
+
+.backao img{
+    position: relative;
+    width: 100%;
+    background-size: contain;
+}
